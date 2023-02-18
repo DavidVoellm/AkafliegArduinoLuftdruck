@@ -17,19 +17,21 @@ void setDisplay(int displayID, String text){
   lcd.setCursor(0,displayID);
   lcd.print(text+"                       ");
 }
-void setDisplay(int displayID, int text){
-  return setDisplay(displayID, (String)text);
-}
+void setDisplay(int displayID, float text)
+  {return setDisplay(displayID, (String)text);}
 
-int messen(int pin){
-  int pressure = analogRead(pin);
-  return pressure;
+void setDisplay(int displayID, int text)
+  {return setDisplay(displayID, (String)text);}
+
+float druckInBar(int pin){ // Pbar = (10*Vout/Vs +0.95)/9
+  float pressure = analogRead(pin);
+  return (10*pressure/1024.0+0.95)/9.0;
 }
 void durchlauf(){
-  int pressure1 = messen(pressurePin1);
-  int pressure2 = messen(pressurePin2);
-  int difference = pressure2 - pressure1;
-  setDisplay(0,"Difference: "+(String)difference);
+  float pressure1 = druckInBar(pressurePin1);
+  float pressure2 = druckInBar(pressurePin2);
+  float difference = pressure2 - pressure1;
+  setDisplay(0,"Diff.:"+(String)difference);
   setDisplay(1,"P1:"+(String)pressure1+"|P2:"+(String)pressure2);
 }
 
@@ -40,8 +42,4 @@ void loop() {
     while(gedrueckt){gedrueckt = digitalRead(knopfPin);}
     durchlauf();
   }
-  /*setDisplay(0,"Hallo");
-  gedrueckt = digitalRead(knopfPin);
-  setDisplay(1,(String)gedrueckt);
-  delay(500);*/
 }
