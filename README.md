@@ -10,8 +10,10 @@ Die Akaflieg benötigt eine Anzeige, die zwei Vakuume vergleicht. Die Idee dafü
 
 ## Quellen:
 Benutzter [Sensor](https://www.reichelt.de/drucksensor-15--115-kpa-46-mv-kpa-mpxh-6115a6u-p82344.html)
+
 [Differenzdrucksensor](https://de.wikipedia.org/wiki/Differenzdrucksensor)
 
+[Youtube Projekt](https://www.youtube.com/watch?v=0Un4PbA6CQ4)
 
 Andere Sensoren:
 https://www.tme.eu/de/details/mpx2100dp/druckgeber/nxp-freescale/
