@@ -19,4 +19,4 @@ Andere Sensoren:
 https://www.tme.eu/de/details/mpx2100dp/druckgeber/nxp-freescale/
 https://www.mouser.de/datasheet/2/445/2513130810301-2889288.pdf
 https://www.pollin.de/p/freescale-drucksensor-mp2100dp-0-100-kpa-0-4-mv-kpa-180113
-https://www.elpro.org/de/nxp-mpx-serie/14403-mpx4250dp.html VERFÜGBAR
+https://www.elpro.org/de/nxp-mpx-serie/14403-mpx4250dp.html
