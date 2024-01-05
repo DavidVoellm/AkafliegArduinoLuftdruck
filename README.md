@@ -1,8 +1,6 @@
-# AkafliegArduinoLuftdruck
-Die Akaflieg benötigt eine Anzeige, die zwei Vakuume vergleicht. Die Idee dafür ist ein Arduino mit Luftdrucksensoren und LCD-Display.
-
-
-
+# Luftdruckmessung Motorkalibrierung
+Die Akaflieg benötigt eine Anzeige, die zwei Vakuume vergleicht.
+Dazu sind an einem Arduino 2 Drucksensoren und ein Display angeschlossen.
 
 
 
