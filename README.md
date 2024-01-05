@@ -1,8 +1,11 @@
 # Luftdruckmessung Motorkalibrierung
 Die Akaflieg benötigt eine Anzeige, die zwei Vakuume vergleicht.
 Dazu sind an einem Arduino 2 Drucksensoren und ein Display angeschlossen.
+Das Display zeigt sowohl die einzelnen Druckwerte als auch die Differenz (mit möglicher Kalibrierung um die Differenz auf 0 zu setzen)
 
-
+## Fertiges Projekt
+![](./Bilder/IMG5.JPEG)
+[Andere Bilder](./Bilder/)
 
 
 
